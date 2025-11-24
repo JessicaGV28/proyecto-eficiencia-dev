@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]  # Errores comunes
+ignore = ["E501"]  # Ignora líneas largas por ahora
+
+[tool.ruff.format]
+quote-style = "double"
